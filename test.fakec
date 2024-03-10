@@ -1,0 +1,5 @@
+if (a >= 7.6) {
+   int result_1 = b + c - 3;
+} else {
+   float result = c / 2;
+}
