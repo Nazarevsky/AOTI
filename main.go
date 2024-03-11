@@ -69,16 +69,15 @@ func printTokens(tokens []string) {
 }
 
 func main() {
-	input := `int x = 10;
-    int y = 5;
-	float z = x / y;
-    int result;
-
-    if (z >= 7.6) {
-        result = x + y;
-    } else {
-        result = x - y;
-    }`
+	input := `
+		if (x + 1 == 1) {
+			int b = 1 + 2 / 23;
+			b = 1;
+		} else {
+			int z = 2;
+			int z = 2;
+		}
+	`
 
 	tokens := tokenize(input)
 	printTokens(tokens)
