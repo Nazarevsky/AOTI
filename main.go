@@ -13,8 +13,8 @@ var tokenPatterns = []struct {
 	{`^if`, "if_statement"},
 	{`^else`, "else_statement"},
 	{`^(int|float)`, "var_type"},
-	{`^[a-zA-Z_]\w*`, "var_statement"},
-	{`^\d+(\.\d+)?([Еe][-]?\d+)?`, "number"},
+	{`^[a-zA-Z_]\w*\s*=`, "var_statement"},
+	{`^[a-zA-Z_]\w*|^\d+(\.\d+)?([Еe][-]?\d+)?`, "simple_var"},
 	{`^[-+*/%]`, "operation"},
 	{`^(==|>=|<=|!=|>|<)`, "comparison"},
 	{`^=`, "is"},
@@ -38,10 +38,14 @@ func tokenize(input string) []string {
 			for _, tokenPattern := range tokenPatterns {
 				regex := regexp.MustCompile(tokenPattern.pattern)
 				match := regex.FindString(line)
-				if match != "" {
+				if len(match) > 0 {
 					isMatch = true
 					lineTokens = append(lineTokens, tokenPattern.token)
-					line = strings.TrimSpace(line[len(match):])
+					if lineTokens[len(lineTokens)-1] == "var_statement" {
+						line = strings.TrimSpace(line[len(match)-1:])
+					} else {
+						line = strings.TrimSpace(line[len(match):])
+					}
 					break
 				}
 			}
