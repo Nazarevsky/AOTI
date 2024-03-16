@@ -1,4 +1,4 @@
-COMPILER SyntaxAnalyzer
+COMPILER LexicalAnalyzer
 CHARACTERS
     digit = '0'..'9'.
     lowerLetter = 'a'..'z'. 
@@ -31,7 +31,7 @@ TOKENS
     Equal = equal.
 IGNORE '\r' + '\n'
 PRODUCTIONS
-    SyntaxAnalyzer = IfElseStatement.
+    LexicalAnalyzer = IfElseStatement.
     IfElseStatement = "if" "(" Condition ")" "{" Body "}" "else" "{" Body "}".
     Condition = IntCondition | FloatCondition.
 
@@ -46,4 +46,4 @@ PRODUCTIONS
     IntExprVar = IntNum | VarName.
     FloatExprVar = FloatNum | VarName.
 
-END SyntaxAnalyzer.
+END LexicalAnalyzer.

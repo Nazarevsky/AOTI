@@ -84,7 +84,7 @@ public class Parser {
 	}
 
 	
-	void SyntaxAnalyzer() {
+	void LexicalAnalyzer() {
 		IfElseStatement();
 	}
 
@@ -201,7 +201,7 @@ public class Parser {
 		la = new Token();
 		la.val = "";		
 		Get();
-		SyntaxAnalyzer();
+		LexicalAnalyzer();
 		Expect(0);
 
 	}
