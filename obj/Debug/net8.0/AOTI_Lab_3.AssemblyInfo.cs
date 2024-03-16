@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AOTI_Lab_3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37694fe5a64b5af63ef8a77ffef5aa39c17b8b88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d70db8fd77414184ede0272168d159f7fb0627c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AOTI_Lab_3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AOTI_Lab_3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
