@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AOTI_Lab_3/1.0.0": {
+        "runtime": {
+          "AOTI_Lab_3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AOTI_Lab_3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

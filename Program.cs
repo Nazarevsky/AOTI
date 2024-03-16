@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 class Compile {
     static void Main (string[] arg){

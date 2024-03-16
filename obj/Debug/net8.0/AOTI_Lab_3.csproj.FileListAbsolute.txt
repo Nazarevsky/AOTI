@@ -1,0 +1,15 @@
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\bin\Debug\net8.0\AOTI_Lab_3.exe
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\bin\Debug\net8.0\AOTI_Lab_3.deps.json
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\bin\Debug\net8.0\AOTI_Lab_3.runtimeconfig.json
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\bin\Debug\net8.0\AOTI_Lab_3.dll
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\bin\Debug\net8.0\AOTI_Lab_3.pdb
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\obj\Debug\net8.0\AOTI_Lab_3.GeneratedMSBuildEditorConfig.editorconfig
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\obj\Debug\net8.0\AOTI_Lab_3.AssemblyInfoInputs.cache
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\obj\Debug\net8.0\AOTI_Lab_3.AssemblyInfo.cs
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\obj\Debug\net8.0\AOTI_Lab_3.csproj.CoreCompileInputs.cache
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\obj\Debug\net8.0\AOTI_Lab_3.sourcelink.json
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\obj\Debug\net8.0\AOTI_Lab_3.dll
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\obj\Debug\net8.0\refint\AOTI_Lab_3.dll
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\obj\Debug\net8.0\AOTI_Lab_3.pdb
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\obj\Debug\net8.0\AOTI_Lab_3.genruntimeconfig.cache
+E:\ХНУРЭ\4_2\АОТІ\Лабы\3\AOTI_Lab_3\obj\Debug\net8.0\ref\AOTI_Lab_3.dll
